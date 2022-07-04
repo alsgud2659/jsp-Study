@@ -1,0 +1,32 @@
+article {
+    display: table;
+    margin: 0 auto;
+}
+
+article div {
+    display: table-row;
+}
+
+article div div {
+    display: table-cell;
+    width: 200px;
+}
+
+article div div.cell1 {
+    text-align: center;
+}
+
+div.btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+div.btn button {
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    border-style: none none solid none;
+}
